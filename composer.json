@@ -1,0 +1,14 @@
+{
+  "name": "eropche/drom-test-client",
+  "description": "Test task for Drom",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "ext-curl": "*",
+    "phpunit/phpunit": "^7.5"
+  }
+}
